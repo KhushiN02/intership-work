@@ -1,0 +1,28 @@
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+    border: 3px solid red;
+}
+.box2{
+    margin: 10px;
+    padding: 0 auto;
+    text-align: left;
+    width: 600px;  
+}
+button{
+    border: 10px solid;
+    background-color: green;
+    color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    height:50px;
+    width: 500px;
+}
+.container input,label,select{
+    margin: 20px;
+    height: 30px;
+    width: 500px;
+}

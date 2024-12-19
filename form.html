@@ -20,19 +20,32 @@
             <option value="">Others</option>
         </select><br><br>
         <label for="Membership"><b>Membership-Id:</b></label>
-        <input type="number" placeholder="Enter ID number*" required style="height: 30px; width: 500px;"><br><br>
+        <input type="number" placeholder="enter member id" required style="height: 30px; width: 500px;" title="id"><br><br>
+
+
         <label for="fullname"><b>Full-name:</b></label>
-        <input type="text" placeholder="Full-name*" required><br><br>
+        <input type="text" placeholder="Full-name*" title="fullname"  minlength="3" maxlength="20"><br><br>
+
+
         <label for="email"><b>E-mail:</b></label><br>
-        <input type="email" id="email" name="email" placeholder="Enter your E-mail*" style="height: 30px; width: 500px;"><br><br>
+        <input type="email" id="email" name="email" placeholder="Enter your E-mail" title="Enter your E-mail"><br><br>
+
+
         <label for="phone-number"><b>Phone-number:</b></label><br>
-        <input type="number" placeholder="Your number" required><br><br>
+        <input type="phone" placeholder="phone number" title="Enter number"  minlength="10" max="13" required ><br><br>
+
+
         <label for="Batch"><b>Batch</b></label><br>
-        <input type="text" placeholder="batch(Not Mandatory)"><br><br>
+        <input type="year" title="batch(Not Mandatory)" value="20" max="4"><br><br>
+
+
         <label for="password"><b>Password:</b></label><br>
-        <input type="Password" placeholder="Password*" required><br><br>
+        <input type="Password" title="[A-Za-z]{5}" required pattern="[A-Za-z]{5}" minlength="5" ><br><br>
+
+
         <label for="password"><b>Confirm-password:</b></label><br>
-        <input type="password" placeholder="Confirm-password*" required><br><br>
+        <input type="password" title="Confirm-password" required  pattern="[A-Za-z]{3}[0-9]{0-9}" title="[A-Za-z]{3}[0-9]{0-9}" max="8"><br><br>
+
         </div>
 
         <div class="box">
